@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Catering </title>
+<style>
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+}
+.right
+{
+    display: flex;
+    gap:25px
+}
+.section
+{position: relative;
+    background-image: url("hamburger.jpg");
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 25px;
+}
+h1
+{
+  position: absolute;
+  bottom: 0;  
+  left: 35px;
+  font-size: 40px;
+  color: gray;
+}
+.content
+{
+background-color: aliceblue;
+}
+.child-a
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    align-items: center;
+}
+#para
+{
+    margin: 55px 55px 55px 55px;
+    padding: 25px;
+}
+img{
+    margin-left:90px;
+    padding: 35px;
+}
+span{
+    color: gray;
+}
+h2{
+    padding: 25px;
+    letter-spacing: 5px;
+    text-transform: capitalize;  
+}
+input{
+    width: 90%;
+    border-color: 1px solid black;
+    padding: 15px;
+}
+
+.details li
+{
+    text-decoration: none;
+    list-style: none;
+
+padding: 15px;
+}
+#button
+{
+    width: 100px;
+   margin-left: 55px;
+}
+
+
+</style>
+</head>
+<body>
+<div class="navbar">
+    <div><h3>Gourment au catering </h3></div>
+    <div class="right">
+        <h3>About </h3>
+        <h3>Menu</h3>
+        <h3>contact</h3>
+    </div>
+</div>
+
+<div class="section">
+<div><h1>Le Catering</h1></div>
+</div>
+
+<div class="content">
+     <div class="child-a">
+          <div><img src="tablesetting2.jpg" style="width:80%; height: 80%;"></div>
+          <div><h2>About Catering</h2>
+          <h4>Tradition since 1889  </h4>
+          <p id="para">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use seasonal ingredients.<br><br><br>
+
+           <span> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></div>
+           </div>
+     </div>
+</div>
+
+
+ <div class="contact">
+    <h2 style="margin-left: 30px;">Contact</h2>
+    <p style="margin-left:50px;">We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.
+  </p>
+   <p style="color:blue; margin-left: 50px;">Catering Service, 42nd Living St, 43043 New York, NY
+   </p>
+   <p style="margin-left:50px;">You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:
+   </p>
+    <ul class="details">
+    <li><input type="text" value="" placeholder="Name"></li>
+    <li><input type="number" value="" placeholder="How many people"></li>
+    <li><input type="date" value="" placeholder="Date"></li>
+    <li><input type="text" value="" placeholder="Message /special Requirements "></li>
+    </ul>  
+    
+</div>
+<input id="button" type="button" value="SUBMIT" ><br><br>
+
+</body>
+</html>
